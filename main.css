@@ -1,0 +1,142 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+}
+
+.x-up {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: lightgrey url('/static/panoram3/buttons/up.svg');
+}
+
+.x-down {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: lightgrey url('/static/panoram3/buttons/down.svg');
+}
+
+.x-go{
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background: lightgrey url('/static/panoram3/buttons/go.svg');
+}
+
+.x-stud{
+    width: 57px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent url('/static/panoram3/buttons/stud.png');
+}
+
+.hover {
+    background-color: #00b0ff;
+}
+
+.hover-press-x {
+    background-color: #00b0ff;
+}
+.hover-press-x:after {
+    content: url('/static/panoram3/buttons/dual_cross48.png');
+    height: 42px;
+    width: 42px;
+    /*line-height: 24px;*/
+    /*background-color: #00b0ff;*/
+    /*border-radius: 5px;*/
+    position: absolute;
+    top: 32px;
+    left: -11px;
+    text-align: center;
+}
+
+.x-up:hover {
+    background-color: #00b0ff;
+}
+
+.x-down:hover {
+    background-color: #00b0ff;
+}
+
+.x-go:hover {
+    background-color: #00b0ff;
+}
+
+.x-stud:hover {
+    background-color: #00b0ff;
+}
+
+.x-hide {
+    display: none;
+}
+
+#x-progress-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    z-index: 10;
+}
+
+#x-progress-bar.x-progress-bar-center {
+    height: 100%;
+}
+
+.x-progress-bar-content {
+    width: 85%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+}
+
+#x-progress-bar-line {
+    width: 0;
+    height: 100%;
+    background: lightseagreen
+}
+
+#x-progress-bar-label {
+    line-height: 35px;
+    position: absolute;
+    left: calc(50% - 12px);
+}
+
+#x-progress-bar-status {
+    left: 5px;
+    top: 0;
+    line-height: 35px;
+    position: absolute;
+}
+
+.bottom-right-element {
+    display: none;
+    background-color: #00b0ff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 36px;
+    right: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 10;
+}
+
+.gamepad-button {
+    width: 42px;
+    height: 42px;
+    transform: translateY(20%);
+}
