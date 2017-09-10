@@ -1,7 +1,7 @@
 # panoram3
 NSTU 7 Build Panoram Project. rev3.
 
-Panoram3 Files. Using panellum.
+Source files here only. Used pannellum engine.
 For work need server.
 
-last update 10.04.2017
+Last update sources 10.04.2017
